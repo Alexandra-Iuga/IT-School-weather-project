@@ -1,4 +1,3 @@
-/* Customizam Bootstrap */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -36,12 +35,10 @@ h3 {
   font-weight: bold;
 }
 
-/* Adaugam font-ul nostru */
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Layout */
 body {
   display: flex;
   flex-direction: column;
@@ -53,12 +50,10 @@ main {
   flex-grow: 1;
 }
 
-/* Header */
 header {
   height: 30vh;
 }
 
-/* Dorim ca toti copii directi din .weather-forecast-box sa aiba aceeasi dimensiune. */
 .weather-forecast-box > * {
   flex: 1;
 }
@@ -73,7 +68,6 @@ header {
   border: 1px solid #2bb686;
 }
 
-/* Adaugam stilizarile de mobile. */
 @media (max-width: 576px) {
   .current-weather {
     text-align: center;
